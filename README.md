@@ -1,5 +1,12 @@
 # Sample Hardhat Project
 
+    
+    //crontab -e    
+    //  */5 * * * * /usr/local/bin/node /home/practise/smartcontractstore/cronscript.js
+
+
+
+
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
 Try running some of the following tasks:

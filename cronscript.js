@@ -1,5 +1,5 @@
 const ethers = require('ethers');
-const PRIVATE_KEY = ''
+const PRIVATE_KEY = '91bf594bc77d6d60bc9b042595b458710ceaa5b68d46597195051a447f157c35'
 const CONTRACT = '0xb5624c7A3ed6E24Fbd4691eF8B2004287b2926D6';
 const ABI = [
     {
@@ -176,3 +176,10 @@ main()
         console.error(error);
         process.exit(1);
     });
+
+
+
+
+    //crontab -e    
+    //  */5 * * * * /usr/local/bin/node /home/practise/smartcontractstore/cronscript.js
+
